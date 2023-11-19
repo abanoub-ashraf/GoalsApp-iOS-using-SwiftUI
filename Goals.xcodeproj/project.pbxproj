@@ -14,6 +14,8 @@
 		C8B07A9C2B0A9AE000F9B4B9 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C8B07A9B2B0A9AE000F9B4B9 /* GoogleService-Info.plist */; };
 		C8B07AAA2B0A9C5E00F9B4B9 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = C8B07AA92B0A9C5E00F9B4B9 /* FirebaseFirestore */; };
 		C8B07AAC2B0A9C6900F9B4B9 /* FirebaseFirestoreSwift in Frameworks */ = {isa = PBXBuildFile; productRef = C8B07AAB2B0A9C6900F9B4B9 /* FirebaseFirestoreSwift */; };
+		C8B07AB42B0AA12C00F9B4B9 /* Goal.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8B07AB32B0AA12C00F9B4B9 /* Goal.swift */; };
+		C8B07AB62B0AA28D00F9B4B9 /* Goal+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8B07AB52B0AA28D00F9B4B9 /* Goal+Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +25,8 @@
 		C8B07A8D2B0A93A900F9B4B9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C8B07A902B0A93A900F9B4B9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		C8B07A9B2B0A9AE000F9B4B9 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		C8B07AB32B0AA12C00F9B4B9 /* Goal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Goal.swift; sourceTree = "<group>"; };
+		C8B07AB52B0AA28D00F9B4B9 /* Goal+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Goal+Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,9 +62,13 @@
 		C8B07A882B0A93A100F9B4B9 /* Goals */ = {
 			isa = PBXGroup;
 			children = (
+				C8B07AB12B0A9FF100F9B4B9 /* Models */,
+				C8B07AB02B0A9FEC00F9B4B9 /* Views */,
+				C8B07AAF2B0A9FE600F9B4B9 /* ViewModels */,
+				C8B07AAE2B0A9FDC00F9B4B9 /* Repositories */,
+				C8B07AAD2B0A9FCB00F9B4B9 /* Utils */,
 				C8B07A9B2B0A9AE000F9B4B9 /* GoogleService-Info.plist */,
 				C8B07A892B0A93A100F9B4B9 /* GoalsApp.swift */,
-				C8B07A8B2B0A93A100F9B4B9 /* ContentView.swift */,
 				C8B07A8D2B0A93A900F9B4B9 /* Assets.xcassets */,
 				C8B07A8F2B0A93A900F9B4B9 /* Preview Content */,
 			);
@@ -80,6 +88,44 @@
 			children = (
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C8B07AAD2B0A9FCB00F9B4B9 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		C8B07AAE2B0A9FDC00F9B4B9 /* Repositories */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Repositories;
+			sourceTree = "<group>";
+		};
+		C8B07AAF2B0A9FE600F9B4B9 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		C8B07AB02B0A9FEC00F9B4B9 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				C8B07A8B2B0A93A100F9B4B9 /* ContentView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		C8B07AB12B0A9FF100F9B4B9 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				C8B07AB32B0AA12C00F9B4B9 /* Goal.swift */,
+				C8B07AB52B0AA28D00F9B4B9 /* Goal+Extension.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -161,6 +207,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				C8B07A8C2B0A93A100F9B4B9 /* ContentView.swift in Sources */,
+				C8B07AB42B0AA12C00F9B4B9 /* Goal.swift in Sources */,
+				C8B07AB62B0AA28D00F9B4B9 /* Goal+Extension.swift in Sources */,
 				C8B07A8A2B0A93A100F9B4B9 /* GoalsApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
