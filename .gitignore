@@ -188,4 +188,6 @@ Packages
 /*.gcno
 **/xcshareddata/WorkspaceSettings.xcsettings
 
+GoogleService-Info.plist
+
 # End of https://www.toptal.com/developers/gitignore/api/xcode,swift,firebase,git,macos,swiftpm,fastlane,cocoapods
