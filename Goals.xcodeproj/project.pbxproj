@@ -9,8 +9,15 @@
 /* Begin PBXBuildFile section */
 		C80D63762B1135BC0025C2B5 /* MockGoalRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = C80D63752B1135BC0025C2B5 /* MockGoalRepository.swift */; };
 		C80D637E2B113B0C0025C2B5 /* MockGoalsRepositoryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C80D637D2B113B0C0025C2B5 /* MockGoalsRepositoryTests.swift */; };
+		C8136D932B17C632003853A0 /* ColorExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8136D922B17C632003853A0 /* ColorExtensions.swift */; };
+		C82345CD2B1A643E0073BDCA /* UIViewRepExplained.swift in Sources */ = {isa = PBXBuildFile; fileRef = C82345CC2B1A643E0073BDCA /* UIViewRepExplained.swift */; };
+		C83E825B2B1A66A300060CE7 /* UIEmojiTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = C83E825A2B1A66A300060CE7 /* UIEmojiTextField.swift */; };
+		C83E825D2B1A68F000060CE7 /* EmojiTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = C83E825C2B1A68F000060CE7 /* EmojiTextField.swift */; };
+		C8466BEE2B1A59760014A14E /* DateExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8466BED2B1A59760014A14E /* DateExtensions.swift */; };
+		C8466BF02B1A5A660014A14E /* DateConversionTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8466BEF2B1A5A660014A14E /* DateConversionTest.swift */; };
 		C879844C2B0BF96B001B0068 /* RepositoryExplained.swift in Sources */ = {isa = PBXBuildFile; fileRef = C879844B2B0BF96B001B0068 /* RepositoryExplained.swift */; };
 		C879844E2B0C0133001B0068 /* GoalRepositoryProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = C879844D2B0C0133001B0068 /* GoalRepositoryProtocol.swift */; };
+		C885616C2B1945BA00318F22 /* ColorConversionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C885616B2B1945BA00318F22 /* ColorConversionTests.swift */; };
 		C8B07A8A2B0A93A100F9B4B9 /* GoalsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8B07A892B0A93A100F9B4B9 /* GoalsApp.swift */; };
 		C8B07A8C2B0A93A100F9B4B9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8B07A8B2B0A93A100F9B4B9 /* ContentView.swift */; };
 		C8B07A8E2B0A93A900F9B4B9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C8B07A8D2B0A93A900F9B4B9 /* Assets.xcassets */; };
@@ -20,6 +27,7 @@
 		C8B07AB42B0AA12C00F9B4B9 /* Goal.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8B07AB32B0AA12C00F9B4B9 /* Goal.swift */; };
 		C8B07AB62B0AA28D00F9B4B9 /* Goal+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8B07AB52B0AA28D00F9B4B9 /* Goal+Extension.swift */; };
 		C8DE0E972B12964800E3A77F /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C8DE0E962B12964800E3A77F /* GoogleService-Info.plist */; };
+		C8DE0E992B12979B00E3A77F /* FirebaseGoalRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8DE0E982B12979B00E3A77F /* FirebaseGoalRepository.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,8 +44,15 @@
 		C80D63752B1135BC0025C2B5 /* MockGoalRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockGoalRepository.swift; sourceTree = "<group>"; };
 		C80D637B2B113B0C0025C2B5 /* GoalsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GoalsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C80D637D2B113B0C0025C2B5 /* MockGoalsRepositoryTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockGoalsRepositoryTests.swift; sourceTree = "<group>"; };
+		C8136D922B17C632003853A0 /* ColorExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorExtensions.swift; sourceTree = "<group>"; };
+		C82345CC2B1A643E0073BDCA /* UIViewRepExplained.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewRepExplained.swift; sourceTree = "<group>"; };
+		C83E825A2B1A66A300060CE7 /* UIEmojiTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIEmojiTextField.swift; sourceTree = "<group>"; };
+		C83E825C2B1A68F000060CE7 /* EmojiTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiTextField.swift; sourceTree = "<group>"; };
+		C8466BED2B1A59760014A14E /* DateExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateExtensions.swift; sourceTree = "<group>"; };
+		C8466BEF2B1A5A660014A14E /* DateConversionTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateConversionTest.swift; sourceTree = "<group>"; };
 		C879844B2B0BF96B001B0068 /* RepositoryExplained.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepositoryExplained.swift; sourceTree = "<group>"; };
 		C879844D2B0C0133001B0068 /* GoalRepositoryProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoalRepositoryProtocol.swift; sourceTree = "<group>"; };
+		C885616B2B1945BA00318F22 /* ColorConversionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorConversionTests.swift; sourceTree = "<group>"; };
 		C8B07A862B0A93A100F9B4B9 /* Goals.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Goals.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C8B07A892B0A93A100F9B4B9 /* GoalsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoalsApp.swift; sourceTree = "<group>"; };
 		C8B07A8B2B0A93A100F9B4B9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -46,6 +61,7 @@
 		C8B07AB32B0AA12C00F9B4B9 /* Goal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Goal.swift; sourceTree = "<group>"; };
 		C8B07AB52B0AA28D00F9B4B9 /* Goal+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Goal+Extension.swift"; sourceTree = "<group>"; };
 		C8DE0E962B12964800E3A77F /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		C8DE0E982B12979B00E3A77F /* FirebaseGoalRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseGoalRepository.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +88,8 @@
 			isa = PBXGroup;
 			children = (
 				C80D637D2B113B0C0025C2B5 /* MockGoalsRepositoryTests.swift */,
+				C885616B2B1945BA00318F22 /* ColorConversionTests.swift */,
+				C8466BEF2B1A5A660014A14E /* DateConversionTest.swift */,
 			);
 			path = GoalsTests;
 			sourceTree = "<group>";
@@ -129,6 +147,10 @@
 		C8B07AAD2B0A9FCB00F9B4B9 /* Utils */ = {
 			isa = PBXGroup;
 			children = (
+				C8136D922B17C632003853A0 /* ColorExtensions.swift */,
+				C8466BED2B1A59760014A14E /* DateExtensions.swift */,
+				C82345CC2B1A643E0073BDCA /* UIViewRepExplained.swift */,
+				C83E825A2B1A66A300060CE7 /* UIEmojiTextField.swift */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -139,6 +161,7 @@
 				C879844B2B0BF96B001B0068 /* RepositoryExplained.swift */,
 				C879844D2B0C0133001B0068 /* GoalRepositoryProtocol.swift */,
 				C80D63752B1135BC0025C2B5 /* MockGoalRepository.swift */,
+				C8DE0E982B12979B00E3A77F /* FirebaseGoalRepository.swift */,
 			);
 			path = Repositories;
 			sourceTree = "<group>";
@@ -154,6 +177,7 @@
 			isa = PBXGroup;
 			children = (
 				C8B07A8B2B0A93A100F9B4B9 /* ContentView.swift */,
+				C83E825C2B1A68F000060CE7 /* EmojiTextField.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -276,6 +300,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				C80D637E2B113B0C0025C2B5 /* MockGoalsRepositoryTests.swift in Sources */,
+				C8466BF02B1A5A660014A14E /* DateConversionTest.swift in Sources */,
+				C885616C2B1945BA00318F22 /* ColorConversionTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,9 +310,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				C879844E2B0C0133001B0068 /* GoalRepositoryProtocol.swift in Sources */,
+				C83E825D2B1A68F000060CE7 /* EmojiTextField.swift in Sources */,
+				C8466BEE2B1A59760014A14E /* DateExtensions.swift in Sources */,
 				C8B07A8C2B0A93A100F9B4B9 /* ContentView.swift in Sources */,
+				C82345CD2B1A643E0073BDCA /* UIViewRepExplained.swift in Sources */,
 				C879844C2B0BF96B001B0068 /* RepositoryExplained.swift in Sources */,
+				C8DE0E992B12979B00E3A77F /* FirebaseGoalRepository.swift in Sources */,
 				C8B07AB42B0AA12C00F9B4B9 /* Goal.swift in Sources */,
+				C8136D932B17C632003853A0 /* ColorExtensions.swift in Sources */,
+				C83E825B2B1A66A300060CE7 /* UIEmojiTextField.swift in Sources */,
 				C8B07AB62B0AA28D00F9B4B9 /* Goal+Extension.swift in Sources */,
 				C80D63762B1135BC0025C2B5 /* MockGoalRepository.swift in Sources */,
 				C8B07A8A2B0A93A100F9B4B9 /* GoalsApp.swift in Sources */,
