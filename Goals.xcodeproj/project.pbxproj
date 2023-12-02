@@ -13,6 +13,17 @@
 		C82345CD2B1A643E0073BDCA /* UIViewRepExplained.swift in Sources */ = {isa = PBXBuildFile; fileRef = C82345CC2B1A643E0073BDCA /* UIViewRepExplained.swift */; };
 		C83E825B2B1A66A300060CE7 /* UIEmojiTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = C83E825A2B1A66A300060CE7 /* UIEmojiTextField.swift */; };
 		C83E825D2B1A68F000060CE7 /* EmojiTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = C83E825C2B1A68F000060CE7 /* EmojiTextField.swift */; };
+		C83E825F2B1A6E0A00060CE7 /* AnimationExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C83E825E2B1A6E0A00060CE7 /* AnimationExtensions.swift */; };
+		C83E82612B1B5FCD00060CE7 /* GoalViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C83E82602B1B5FCC00060CE7 /* GoalViewModel.swift */; };
+		C83E82632B1B611D00060CE7 /* GoalsListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C83E82622B1B611D00060CE7 /* GoalsListViewModel.swift */; };
+		C83E82652B1B638A00060CE7 /* GoalsListViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C83E82642B1B638A00060CE7 /* GoalsListViewModelTests.swift */; };
+		C83E82672B1B666F00060CE7 /* AddGoalViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C83E82662B1B666F00060CE7 /* AddGoalViewModel.swift */; };
+		C83E826A2B1B698800060CE7 /* AddGoalViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C83E82692B1B698800060CE7 /* AddGoalViewModelTests.swift */; };
+		C83E826C2B1B6CCC00060CE7 /* GoalDetailsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C83E826B2B1B6CCC00060CE7 /* GoalDetailsViewModel.swift */; };
+		C83E826E2B1B6F2B00060CE7 /* GoalDetailsViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C83E826D2B1B6F2B00060CE7 /* GoalDetailsViewModelTests.swift */; };
+		C83E82702B1B8CE500060CE7 /* GoalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C83E826F2B1B8CE500060CE7 /* GoalView.swift */; };
+		C83E82722B1B905800060CE7 /* AddNewGoalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C83E82712B1B905800060CE7 /* AddNewGoalView.swift */; };
+		C83E82742B1B98AA00060CE7 /* GoalDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C83E82732B1B98A900060CE7 /* GoalDetailView.swift */; };
 		C8466BEE2B1A59760014A14E /* DateExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8466BED2B1A59760014A14E /* DateExtensions.swift */; };
 		C8466BF02B1A5A660014A14E /* DateConversionTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8466BEF2B1A5A660014A14E /* DateConversionTest.swift */; };
 		C879844C2B0BF96B001B0068 /* RepositoryExplained.swift in Sources */ = {isa = PBXBuildFile; fileRef = C879844B2B0BF96B001B0068 /* RepositoryExplained.swift */; };
@@ -48,6 +59,17 @@
 		C82345CC2B1A643E0073BDCA /* UIViewRepExplained.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewRepExplained.swift; sourceTree = "<group>"; };
 		C83E825A2B1A66A300060CE7 /* UIEmojiTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIEmojiTextField.swift; sourceTree = "<group>"; };
 		C83E825C2B1A68F000060CE7 /* EmojiTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiTextField.swift; sourceTree = "<group>"; };
+		C83E825E2B1A6E0A00060CE7 /* AnimationExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationExtensions.swift; sourceTree = "<group>"; };
+		C83E82602B1B5FCC00060CE7 /* GoalViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoalViewModel.swift; sourceTree = "<group>"; };
+		C83E82622B1B611D00060CE7 /* GoalsListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoalsListViewModel.swift; sourceTree = "<group>"; };
+		C83E82642B1B638A00060CE7 /* GoalsListViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoalsListViewModelTests.swift; sourceTree = "<group>"; };
+		C83E82662B1B666F00060CE7 /* AddGoalViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddGoalViewModel.swift; sourceTree = "<group>"; };
+		C83E82692B1B698800060CE7 /* AddGoalViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddGoalViewModelTests.swift; sourceTree = "<group>"; };
+		C83E826B2B1B6CCC00060CE7 /* GoalDetailsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoalDetailsViewModel.swift; sourceTree = "<group>"; };
+		C83E826D2B1B6F2B00060CE7 /* GoalDetailsViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoalDetailsViewModelTests.swift; sourceTree = "<group>"; };
+		C83E826F2B1B8CE500060CE7 /* GoalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoalView.swift; sourceTree = "<group>"; };
+		C83E82712B1B905800060CE7 /* AddNewGoalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNewGoalView.swift; sourceTree = "<group>"; };
+		C83E82732B1B98A900060CE7 /* GoalDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoalDetailView.swift; sourceTree = "<group>"; };
 		C8466BED2B1A59760014A14E /* DateExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateExtensions.swift; sourceTree = "<group>"; };
 		C8466BEF2B1A5A660014A14E /* DateConversionTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateConversionTest.swift; sourceTree = "<group>"; };
 		C879844B2B0BF96B001B0068 /* RepositoryExplained.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepositoryExplained.swift; sourceTree = "<group>"; };
@@ -90,6 +112,9 @@
 				C80D637D2B113B0C0025C2B5 /* MockGoalsRepositoryTests.swift */,
 				C885616B2B1945BA00318F22 /* ColorConversionTests.swift */,
 				C8466BEF2B1A5A660014A14E /* DateConversionTest.swift */,
+				C83E82642B1B638A00060CE7 /* GoalsListViewModelTests.swift */,
+				C83E82692B1B698800060CE7 /* AddGoalViewModelTests.swift */,
+				C83E826D2B1B6F2B00060CE7 /* GoalDetailsViewModelTests.swift */,
 			);
 			path = GoalsTests;
 			sourceTree = "<group>";
@@ -151,6 +176,7 @@
 				C8466BED2B1A59760014A14E /* DateExtensions.swift */,
 				C82345CC2B1A643E0073BDCA /* UIViewRepExplained.swift */,
 				C83E825A2B1A66A300060CE7 /* UIEmojiTextField.swift */,
+				C83E825E2B1A6E0A00060CE7 /* AnimationExtensions.swift */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -169,6 +195,10 @@
 		C8B07AAF2B0A9FE600F9B4B9 /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
+				C83E82602B1B5FCC00060CE7 /* GoalViewModel.swift */,
+				C83E82622B1B611D00060CE7 /* GoalsListViewModel.swift */,
+				C83E82662B1B666F00060CE7 /* AddGoalViewModel.swift */,
+				C83E826B2B1B6CCC00060CE7 /* GoalDetailsViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -178,6 +208,9 @@
 			children = (
 				C8B07A8B2B0A93A100F9B4B9 /* ContentView.swift */,
 				C83E825C2B1A68F000060CE7 /* EmojiTextField.swift */,
+				C83E826F2B1B8CE500060CE7 /* GoalView.swift */,
+				C83E82712B1B905800060CE7 /* AddNewGoalView.swift */,
+				C83E82732B1B98A900060CE7 /* GoalDetailView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -299,7 +332,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C83E826E2B1B6F2B00060CE7 /* GoalDetailsViewModelTests.swift in Sources */,
+				C83E826A2B1B698800060CE7 /* AddGoalViewModelTests.swift in Sources */,
 				C80D637E2B113B0C0025C2B5 /* MockGoalsRepositoryTests.swift in Sources */,
+				C83E82652B1B638A00060CE7 /* GoalsListViewModelTests.swift in Sources */,
 				C8466BF02B1A5A660014A14E /* DateConversionTest.swift in Sources */,
 				C885616C2B1945BA00318F22 /* ColorConversionTests.swift in Sources */,
 			);
@@ -309,19 +345,27 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C83E825F2B1A6E0A00060CE7 /* AnimationExtensions.swift in Sources */,
+				C83E82632B1B611D00060CE7 /* GoalsListViewModel.swift in Sources */,
 				C879844E2B0C0133001B0068 /* GoalRepositoryProtocol.swift in Sources */,
 				C83E825D2B1A68F000060CE7 /* EmojiTextField.swift in Sources */,
+				C83E82722B1B905800060CE7 /* AddNewGoalView.swift in Sources */,
 				C8466BEE2B1A59760014A14E /* DateExtensions.swift in Sources */,
 				C8B07A8C2B0A93A100F9B4B9 /* ContentView.swift in Sources */,
 				C82345CD2B1A643E0073BDCA /* UIViewRepExplained.swift in Sources */,
+				C83E82672B1B666F00060CE7 /* AddGoalViewModel.swift in Sources */,
+				C83E82742B1B98AA00060CE7 /* GoalDetailView.swift in Sources */,
+				C83E82702B1B8CE500060CE7 /* GoalView.swift in Sources */,
 				C879844C2B0BF96B001B0068 /* RepositoryExplained.swift in Sources */,
 				C8DE0E992B12979B00E3A77F /* FirebaseGoalRepository.swift in Sources */,
 				C8B07AB42B0AA12C00F9B4B9 /* Goal.swift in Sources */,
 				C8136D932B17C632003853A0 /* ColorExtensions.swift in Sources */,
 				C83E825B2B1A66A300060CE7 /* UIEmojiTextField.swift in Sources */,
 				C8B07AB62B0AA28D00F9B4B9 /* Goal+Extension.swift in Sources */,
+				C83E826C2B1B6CCC00060CE7 /* GoalDetailsViewModel.swift in Sources */,
 				C80D63762B1135BC0025C2B5 /* MockGoalRepository.swift in Sources */,
 				C8B07A8A2B0A93A100F9B4B9 /* GoalsApp.swift in Sources */,
+				C83E82612B1B5FCD00060CE7 /* GoalViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
