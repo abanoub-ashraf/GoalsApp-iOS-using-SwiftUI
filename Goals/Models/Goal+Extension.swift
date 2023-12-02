@@ -11,7 +11,7 @@ extension Goal {
     static var sampleGoals: [Goal] {
         [
             .init(
-                id: UUID().uuidString,
+                id: "WorkID",
                 name: "Work",
                 dueOn: Date(),
                 color: "#0984e3",
@@ -23,7 +23,7 @@ extension Goal {
                 ]
             ),
             .init(
-                id: UUID().uuidString,
+                id: "PersonalID",
                 name: "Personal",
                 dueOn: Date(),
                 color: "#e17055",
@@ -35,7 +35,7 @@ extension Goal {
                 ]
             ),
             .init(
-                id: UUID().uuidString,
+                id: "FitnessID",
                 name: "Fitness",
                 dueOn: Date(),
                 color: "#6c5ce7",
@@ -46,7 +46,7 @@ extension Goal {
                 ]
             ),
             .init(
-                id: UUID().uuidString,
+                id: "TravelID",
                 name: "Travel",
                 dueOn: Date(),
                 color: "#00b894",
@@ -58,7 +58,7 @@ extension Goal {
                 ]
             ),
             .init(
-                id: UUID().uuidString,
+                id: "GigsID",
                 name: "Gigs",
                 dueOn: Date(),
                 color: "#fd79a8",
@@ -69,7 +69,7 @@ extension Goal {
                 ]
             ),
             .init(
-                id: UUID().uuidString,
+                id: "CareerID",
                 name: "Career",
                 dueOn: Date(),
                 color: "#2d3436",
